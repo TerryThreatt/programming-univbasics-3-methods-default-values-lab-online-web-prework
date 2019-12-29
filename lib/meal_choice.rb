@@ -4,7 +4,7 @@
 def meal_choice(veg1, veg2, protein = "meat")
     puts "What a nutritious meal!"
     order = puts "A plate of #{protein} with #{veg1} and #{veg2}"
-    return "What a nutritious meal!" + order.to_s 
+    return "What a nutritious meal!"
 end
 
 meal_choice("broccoli", "macaroni")
